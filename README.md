@@ -37,7 +37,7 @@ https://github.com/Jays-Home-Assistant-Add-ons/repository
 ![Supports amd64 Architecture][influxdb2-amd64-shield]
 ![Supports i386 Architecture][influxdb2-i386-shield]
 
-![HA Ingress Support][ingressSupport]
+![HA Ingress Support][influxdb2-ingressSupport]
 ![Local Build][influxdb2-local-build]
 
 InfluxDB is an open source time series database optimized for high-write-volume.
