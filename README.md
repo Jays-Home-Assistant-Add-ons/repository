@@ -30,11 +30,11 @@ https://github.com/Jays-Home-Assistant-Add-ons/repository
 
 ### &#10003; [InfluxDB2][influxdb2-addon]
 
-![Latest Version][influxdb2-version-shield]
+![Latest Version][influxdb2-releases-shield]
+![Supports amd64 Architecture][influxdb2-amd64-shield]
+![Supports aarch64 Architecture][influxdb2-aarch64-shield]
 ![Supports armhf Architecture][influxdb2-armhf-shield]
 ![Supports armv7 Architecture][influxdb2-armv7-shield]
-![Supports aarch64 Architecture][influxdb2-aarch64-shield]
-![Supports amd64 Architecture][influxdb2-amd64-shield]
 ![Supports i386 Architecture][influxdb2-i386-shield]
 
 ![HA Ingress Support][influxdb2-ingressSupport]
@@ -58,13 +58,15 @@ If you're after InfluxDB v1.x [see here][influxdbv1]
 [influxdbv1]: https://github.com/hassio-addons/addon-influxdb
 [repositoryCommunity]: https://github.com/hassio-addons/repository
 
-[influxdb2-addon]: https://github.com/Jays-Home-Assistant-Add-ons/j-addon-influxdb2/tree/v1.0.0-beta1
-[influxdb2-version-shield]: https://img.shields.io/github/release/Jays-Home-Assistant-Add-ons/j-addon-influxdb2.svg
-[influxdb2-armhf-shield]: https://img.shields.io/badge/armhf-yes-green.svg
-[influxdb2-armv7-shield]: https://img.shields.io/badge/armv7-yes-green.svg
-[influxdb2-aarch64-shield]: https://img.shields.io/badge/aarch64-yes-green.svg
-[influxdb2-amd64-shield]: https://img.shields.io/badge/amd64-yes-green.svg
-[influxdb2-i386-shield]: https://img.shields.io/badge/i386-yes-green.svg
-[influxdb2-doc]: https://github.com/Jays-Home-Assistant-Add-ons/j-addon-influxdb2/blob/v1.0.0-beta1/README.md
+[comment]: <> (-- INFLUXDB2 --)
+[influxdb2-releases-shield]: https://img.shields.io/github/release/Jays-Home-Assistant-Add-ons/j-addon-influxdb2.svg
 [influxdb2-local-build]: https://img.shields.io/badge/Home%20Assistant%20--%20local%20build-YES-orange.svg
 [influxdb2-ingressSupport]: https://img.shields.io/badge/Home%20Assistant%20--%20ingress%20support-NO-red
+[influxdb2-aarch64-shield]: https://img.shields.io/badge/aarch64-untested-orange.svg
+[influxdb2-amd64-shield]: https://img.shields.io/badge/amd64-yes-green.svg
+[influxdb2-armhf-shield]: https://img.shields.io/badge/armhf-no-red.svg
+[influxdb2-armv7-shield]: https://img.shields.io/badge/armv7-no-red.svg
+[influxdb2-i386-shield]: https://img.shields.io/badge/i386-no-red.svg
+
+[influxdb2-doc]: https://github.com/Jays-Home-Assistant-Add-ons/j-addon-influxdb2/blob/main/README.md
+[influxdb2-addon]: https://github.com/Jays-Home-Assistant-Add-ons/j-addon-influxdb2
