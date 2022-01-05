@@ -27,7 +27,7 @@ This add-on doesn't come from the commmunity store and needs to be added from a 
 When running the web UI provided by this add-on for the first time, you'll need to setup an account.
 Navigate to the interface using https://homeassistant.local:8086/ to create your first user
 
-**Note**: _If you're planning on pushing Home Assistant data into InfluxDB using the Home Assistant Intergration, then set your first bucket name to be **home_asssistant**_ \
+**Note**: _If you're planning on pushing Home Assistant data into InfluxDB using the Home Assistant Intergration, then set your first bucket name to be **home_assistant**_ \
 _Refer to **Integrating into Home Assistant** later in this document_
 
 
@@ -146,7 +146,7 @@ You need to do the following steps in order to get this working:
 - Navigate to the InfluxDB2 UI <http://homeassistant.local:8086/> provided by this add-on.
 - On the left menu click on InfluxDB icon at the top.
 - Navigate to **Load Data** > **API Tokens** > **+ Generate API Token** >> **Read/Write API Token**
-- Set the decription to **Home Assistant InfluxDB Intergration API Token**
+- Set the decription to **Home Assistant InfluxDB Integration API Token**
 - Select the **home_assistant** bucket for both Read & Write
 - Click **Save**
 - Click on the name of the newly created token
@@ -170,7 +170,7 @@ influxdb:
   organization: _YOUR_ORG_ID_GOES_HERE_
   bucket: home_assistant
   ssl: false
-  veryify_ssl: false
+  verify_ssl: false
 ```
 
 If you have implimented SSL, you may need to make the following changes to the above configuration:
@@ -178,7 +178,7 @@ If you have implimented SSL, you may need to make the following changes to the a
 influxdb:
   host: _CHANGE_TO_YOUR_CERTIFICATE_HOSTNAME_
   ssl: true
-  veryify_ssl: true
+  verify_ssl: true
 ```
 
 Restart Home Assistant.
@@ -258,6 +258,7 @@ SOFTWARE.
 [contributors]: https://github.com/Jays-Home-Assistant-Add-ons/j-addon-influxdb2/graphs/contributors
 [discord-ha]: https://discord.gg/c5DvZ4e
 [frenck]: https://github.com/frenck
+[forum]: https://community.home-assistant.io
 [issue]: https://github.com/Jays-Home-Assistant-Add-ons/j-addon-influxdb2/issues
 [reddit]: https://reddit.com/r/homeassistant
 [releases]: https://github.com/Jays-Home-Assistant-Add-ons/j-addon-influxdb2/releases
