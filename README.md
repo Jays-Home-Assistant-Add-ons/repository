@@ -51,12 +51,25 @@ If you're after InfluxDB v1.x [see here][influxdbv1]
 [:books: InfluxDB2 add-on documentation][influxdb2-doc]
 
 
+---
+
+# Other cool repositories to look out for
+
+### Rhasspy
+![rhasspy](https://user-images.githubusercontent.com/3225331/148526596-586bd434-bc34-4d61-a304-ad6fc72cbe16.png)
+
+Rhasspy (ɹˈæspi) is an open source, fully offline set of voice assistant services for many human languages that works well with Home Assistant and Hass.io \
+Repository to add to your Home Assistant: ```https://github.com/rhasspy/hassio-addons``` \
+[Link to repository][rhasspyLink]
+
+
 
 [project-stage-shield]: https://img.shields.io/badge/project%20stage-production%20ready-brightgreen.svg
 [maintenance-shield]: https://img.shields.io/maintenance/yes/2022.svg
 [license-shield]: https://img.shields.io/github/license/Jays-Home-Assistant-Add-ons/repository.svg
 [influxdbv1]: https://github.com/hassio-addons/addon-influxdb
 [repositoryCommunity]: https://github.com/hassio-addons/repository
+[rhasspyLink]: https://github.com/rhasspy/hassio-addons
 
 [comment]: <> (-- INFLUXDB2 --)
 [influxdb2-releases-shield]: https://img.shields.io/github/release/Jays-Home-Assistant-Add-ons/j-addon-influxdb2.svg
